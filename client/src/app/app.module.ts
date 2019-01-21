@@ -14,9 +14,9 @@ import { AuthInterceptor } from './shared/okta/auth.interceptor';
 import { HomeComponent } from './home/home.component';
 
 const config = {
-  issuer: 'https://dev-737523.oktapreview.com/oauth2/default',
+  issuer: 'https://erni.okta.com/',
   redirectUri: 'http://localhost:4200/implicit/callback',
-  clientId: '0oagqzcu86BBOq2jF0h7'
+  clientId: '0oa8sf2daATYhkueC356'
 };
 
 @NgModule({
